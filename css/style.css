@@ -1,0 +1,139 @@
+body {
+	background: rgb(50, 51, 45);
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Prompt', sans-serif;
+	line-height: 1em;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-size: 112px;
+	text-align: center;
+	color: yellow;
+	
+}
+h2{
+	font-size: 72px;
+	text-align: center;
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+	animation-name: top-to-bottom;
+	animation-duration: 2s;
+}
+main {
+	background-image:url(../images/world-map.png);
+	background-size: contain;
+	background-position:40% 20%;
+	background-repeat: no-repeat;
+	align-content: center;
+}
+
+footer {
+	background-image:url(../images/world-map.png);
+	background-size: contain;
+	background-position: 40% 20%;
+	background-repeat: no-repeat;
+}
+
+.offer{
+	width: 100%;
+	font-size: 48px;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	background: yellow;
+}
+
+.art {
+	font-size: 24px;
+	color: white;
+}
+.title{
+	color: white;
+	font-size: 48px;
+}
+
+.text {
+	color: yellow;
+	font-size: 56px;
+	text-align: center;
+
+}
+.text_small {
+	font-size: 29px;
+	color: white;
+	text-align: center;
+}
+
+.link {
+	color: #111;
+}
+.link:hover {
+	color: black;
+	transform: scale(0.8);
+}
+
+.yellow-number {
+	color: yellow;
+	font-size: 96px;
+	text-align: center;
+    
+}
+
+.top-of-table {
+	float: left;
+	width: 49%;
+	-moz-float: left;
+	-moz-width: 49%;
+	animation-name: left-to-center;
+	animation-duration: 1s;
+}
+.bottom-of-table{
+	margin-left: 51%;
+	width: 50%;
+	-moz-margin-left: 51%;
+	-moz-width: 50%;
+	animation-name: right-to-center;
+	animation-duration: 1s;
+}
+
+@media screen and (max-width: 1080px) {
+.top-of-table {float: none; width: 100%; align-items: center;}
+.bottom-of-table {margin-left: 0; width: 100%; align-items: center;}
+}
+
+@keyframes left-to-center {
+	0% {transform: translateX(-50%); opacity: 0}
+	50% {transform: translateX(-2%); opacity: .8}
+	100%{transform: translateX(0%); opacity: 1}
+}
+
+@keyframes right-to-center {
+	0% {transform: translateX(50%); opacity: 0}
+	50% {transform: translateX(2%); opacity: .8}
+	100%{transform: translateX(0%); opacity: 1}
+}
+
+@keyframes top-to-bottom {
+	0% {transform: translateY(-80%);}
+	100%{transform: translateY(0%);}
+}
+
+
+
+
+
+
+
+
+  
