@@ -2,7 +2,6 @@
 
 http://ideveloper.by/rtv/index.html
 
-
 ![alt text](http://ideveloper.by/preview/rtv.png)
 
 Mobile first
