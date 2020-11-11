@@ -2,35 +2,36 @@ body {
 	background: rgb(50, 51, 45);
 	max-width: 1080px;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	font-family: 'Prompt', sans-serif;
 	line-height: 1em;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-h1{
+h1 {
 	font-size: 112px;
 	text-align: center;
 	color: yellow;
 	
 }
-h2{
+
+h2 {
 	font-size: 72px;
 	text-align: center;
 	color: white;
 	font-family: 'Noto Sans', sans-serif;
-	animation-name: top-to-bottom;
-	animation-duration: 2s;
+	/*animation-name: top-to-bottom;
+	animation-duration: 2s;*/
 }
+
 main {
 	background-image:url(../images/world-map.png);
 	background-size: contain;
@@ -46,9 +47,9 @@ footer {
 	background-repeat: no-repeat;
 }
 
-.offer{
+.offer {
 	width: 100%;
-	font-size: 48px;
+	font-size: 36px;
 	text-align: center;
 	font-family: 'Noto Sans', sans-serif;
 	background: yellow;
@@ -58,7 +59,8 @@ footer {
 	font-size: 24px;
 	color: white;
 }
-.title{
+
+.title {
 	color: white;
 	font-size: 48px;
 }
@@ -69,6 +71,7 @@ footer {
 	text-align: center;
 
 }
+
 .text_small {
 	font-size: 29px;
 	color: white;
@@ -78,6 +81,7 @@ footer {
 .link {
 	color: #111;
 }
+
 .link:hover {
 	color: black;
 	transform: scale(0.8);
@@ -98,6 +102,7 @@ footer {
 	animation-name: left-to-center;
 	animation-duration: 1s;
 }
+
 .bottom-of-table{
 	margin-left: 51%;
 	width: 50%;
@@ -108,32 +113,35 @@ footer {
 }
 
 @media screen and (max-width: 1080px) {
-.top-of-table {float: none; width: 100%; align-items: center;}
-.bottom-of-table {margin-left: 0; width: 100%; align-items: center;}
+	.top-of-table {float: none; width: 100%; align-items: center;}
+	.bottom-of-table {margin-left: 0; width: 100%; align-items: center;}
+	.offer {font-size: 36px;}
+}
+
+@media screen and (max-width: 600px) {
+	h1 {font-size: 82px;}
+	h2 {font-size: 64px;}
+	.yellow-number {font-size: 72px;}
+	.offer {font-size: 28px;}
+	.text {font-size: 21px;}
+	.text-small {font-size: 18px;}
+	.art {font-size: 18px;}
 }
 
 @keyframes left-to-center {
 	0% {transform: translateX(-50%); opacity: 0}
-	50% {transform: translateX(-2%); opacity: .8}
+	50% {transform: translateX(0%); opacity: .8}
 	100%{transform: translateX(0%); opacity: 1}
 }
 
 @keyframes right-to-center {
 	0% {transform: translateX(50%); opacity: 0}
-	50% {transform: translateX(2%); opacity: .8}
+	50% {transform: translateX(0%); opacity: .8}
 	100%{transform: translateX(0%); opacity: 1}
 }
 
-@keyframes top-to-bottom {
+/*@keyframes top-to-bottom {
 	0% {transform: translateY(-80%);}
 	100%{transform: translateY(0%);}
-}
+}*/
 
-
-
-
-
-
-
-
-  
