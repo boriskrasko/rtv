@@ -8,7 +8,6 @@ RTV Euro AGD is a trading name of a Polish company Euro-net sp. z o.o. In Poland
 [GitHub pages](https://boriskrasko.github.io/rtv)
 
 ![desktop](https://boriskrasko.github.io/rtv/images/cover.png)
-![mobile](https://boriskrasko.github.io/rtv/images/cover-mobile.png)
 
 
 
